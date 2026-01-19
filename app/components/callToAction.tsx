@@ -15,8 +15,8 @@ export function CallToAction() {
             <div className="absolute inset-0 bg-black/50"></div>
             <div className="absolute inset-0 flex flex-col items-center justify-center p-4">
 
-                <h1 className="text-4xl leading-11 font-bold text-white text-center  max-w-sm">
-                    UM PROJETO QUE MUDA <span className="text-[#62A8ED]"> HISTÓRIAS </span>
+                <h1 className="text-4xl leading-11 font-bold text-gray-200 text-center  max-w-sm text-shadow-lg/30">
+                    UM PROJETO QUE MUDA HISTÓRIAS
                 </h1>
 
                 <h3 className="text-(--text-secondary) text-xl leading-6 text-center mt-5
@@ -24,7 +24,7 @@ export function CallToAction() {
                     Taekwondo, educação e inclusão social caminhando juntos.
                 </h3>
 
-                <button className="text-sm font-semibold mt-6 w-44 py-3 bg-(--color-primary) text-white  rounded-xl hover:bg-blue-700 transition-colors">
+                <button className="text-sm font-semibold mt-6 w-44 py-3 bg-(--color-primary) text-white  rounded-xl hover:bg-blue-700 transition-colors shadow-lg shadow-blue-500/30">
                     ENTRE EM CONTATO
                 </button>
             </div>
