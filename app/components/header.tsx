@@ -5,7 +5,7 @@ import logotkd from "../../public/logo-taekwondo-unindo.png";
 
 export function Header() {
     return (
-        <header className="bg-(--bg-primary) w-full h-18 flex items-center justify-between px-8">
+        <header className="bg-(--bg-primary) w-full h-18 flex items-center justify-between px-8 fixed top-0 z-10 shadow-md shadow-black/30">
             <div className="gap-3 flex justify-center items-center">
                 <Image
                     src={logotkd}
