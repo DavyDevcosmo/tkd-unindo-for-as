@@ -18,7 +18,7 @@ export function Cards() {
 
             <div className="flex flex-col lg:flex-row justify-center items-stretch gap-7 max-w-7xl px-4 lg:gap-8 lg:px-8">
 
-                {/* Card 1 */}
+
                 <article className="w-full lg:w-1/3 bg-(--bg-tertiary) flex flex-col items-center p-6 lg:p-8 shadow-inner shadow-blue-500/10 rounded-2xl hover:shadow-lg hover:shadow-blue-500/20 transition-all duration-300">
                     <Image
                         src={logoDobok}
@@ -40,7 +40,7 @@ export function Cards() {
                     </div>
                 </article>
 
-                {/* Card 2 */}
+
                 <article className="w-full lg:w-1/3 bg-(--bg-tertiary) flex flex-col items-center p-6 lg:p-8 shadow-inner shadow-blue-500/10 rounded-2xl hover:shadow-lg hover:shadow-blue-500/20 transition-all duration-300">
                     <Image
                         src={logoTkdCard}
@@ -62,7 +62,7 @@ export function Cards() {
                     </div>
                 </article>
 
-                {/* Card 3 */}
+
                 <article className="w-full lg:w-1/3 bg-(--bg-tertiary) flex flex-col items-center p-6 lg:p-8 shadow-inner shadow-blue-500/10 rounded-2xl hover:shadow-lg hover:shadow-blue-500/20 transition-all duration-300">
                     <Image
                         src={puch}
